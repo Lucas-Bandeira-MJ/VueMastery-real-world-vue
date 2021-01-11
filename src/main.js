@@ -5,6 +5,10 @@ import store from './store'
 
 import 'nprogress/nprogress.css'
 
+import Vuelidate from 'vuelidate'
+
+Vue.use(Vuelidate)
+
 import upperFirst from 'lodash/upperFirst'
 import camelCase from 'lodash/camelCase'
 
